@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #121212;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--primary);
+}
+
+#bulb{
+  width: 500px;
+}
+
+#on-btn,
+#off-btn {
+  width: 200px;
+  padding: 15px 0px;
+  margin: 0px 15px;
+  border-radius: 15px;
+  font-size: 30px;
+  color: white;
+  border: none;
+}
+
+#off-btn {
+  background-color: red;
+  transition: all 0.3s ease;
+}
+
+#off-btn:hover{
+  box-shadow: 0 0 10px white;
+  transform: scale(1.05);
+}
+
+#on-btn {
+  background-color: green;
+  transition: all 0.3s ease;
+}
+
+#on-btn:hover{
+  box-shadow: 0 0 10px white;
+    transform: scale(1.05);
+}
+
