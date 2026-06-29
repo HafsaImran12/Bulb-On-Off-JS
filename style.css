@@ -53,3 +53,16 @@ body {
     transform: scale(1.05);
 }
 
+
+@media screen and (max-width:460px) {
+   body{
+    width: 100vw;
+   }
+   div{
+    width: 100vw;
+    display: flex;
+   }
+}
+
+
+
